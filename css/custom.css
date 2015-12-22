@@ -1,0 +1,27 @@
+/* CUSTOM BETABANK CSS */
+
+/* get lato font */
+
+@import url(lato.css);
+
+/* override foundation.css */
+
+html, body, h1, h2, h3, h4, h5, h6, small {
+	font-family: "Lato", sans-serif;
+}
+
+body {
+	color: #2C3E50;
+}
+
+div.title-bar {
+	background-color: #2C3E50;
+}
+
+.top-bar a:hover {
+	color: #33691e;
+}
+
+/* additions */
+
+
