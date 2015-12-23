@@ -380,7 +380,7 @@ body {
   font-weight: normal;
   line-height: 1.5;
   color: #0a0a0a;
-  background: #fefefe;
+  /*background: #fefefe;*/
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
@@ -1225,7 +1225,7 @@ h6 {
     font-size: 1rem; } }
 
 a {
-  color: #8bc34a;
+  color: #689f38;
   text-decoration: none;
   line-height: inherit;
   cursor: pointer; }
@@ -1431,7 +1431,7 @@ kbd {
   padding: 0.85em 1em;
   margin: 0 1rem 1rem 0;
   font-size: 0.9rem;
-  background: #8bc34a;
+  background: #689f38;
   color: #fff; }
   [data-whatinput='mouse'] .button {
     outline: 0; }
@@ -1450,7 +1450,7 @@ kbd {
     margin-left: 0;
     margin-right: 0; }
   .button.primary {
-    background: #8bc34a;
+    background: #689f38;
     color: #fff; }
     .button.primary:hover, .button.primary:focus {
       background: #147cc0;
@@ -1480,16 +1480,16 @@ kbd {
       background: #cc8b00;
       color: #fff; }
   .button.hollow {
-    border: 1px solid #8bc34a;
-    color: #8bc34a; }
+    border: 1px solid #689f38;
+    color: #689f38; }
     .button.hollow, .button.hollow:hover, .button.hollow:focus {
       background: transparent; }
     .button.hollow:hover, .button.hollow:focus {
       border-color: #33691e;
       color: #33691e; }
     .button.hollow.primary {
-      border: 1px solid #8bc34a;
-      color: #8bc34a; }
+      border: 1px solid #689f38;
+      color: #689f38; }
       .button.hollow.primary:hover, .button.hollow.primary:focus {
         border-color: #33691e;
         color: #33691e; }
@@ -1835,7 +1835,7 @@ select {
   padding: 1.25rem 1rem;
   line-height: 1;
   font-size: 0.75rem;
-  color: #8bc34a;
+  color: #689f38;
   position: relative;
   border-bottom: 1px solid #e6e6e6; }
   .accordion-title:hover, .accordion-title:focus {
@@ -1864,7 +1864,7 @@ select {
     width: 0;
     height: 0;
     border: inset 6px;
-    border-color: #8bc34a transparent transparent;
+    border-color: #689f38 transparent transparent;
     border-top-style: solid;
     position: absolute;
     top: 50%;
@@ -1886,7 +1886,7 @@ select {
   font-size: 0.6rem;
   text-align: center;
   border-radius: 50%;
-  background: #8bc34a;
+  background: #689f38;
   color: #fefefe; }
   .badge.secondary {
     background: #777;
@@ -1923,7 +1923,7 @@ select {
       top: 1px;
       opacity: 1; }
   .breadcrumbs a {
-    color: #8bc34a; }
+    color: #689f38; }
     .breadcrumbs a:hover {
       text-decoration: underline; }
   .breadcrumbs .disabled {
@@ -1965,7 +1965,7 @@ select {
   .button-group.expanded .button:nth-last-child(6):first-child ~ .button {
     width: 16.66667%; }
   .button-group.primary .button {
-    background: #8bc34a;
+    background: #689f38;
     color: #fff; }
     .button-group.primary .button:hover, .button-group.primary .button:focus {
       background: #147cc0;
@@ -2097,7 +2097,7 @@ select {
     width: 0;
     height: 0;
     border: inset 6px;
-    border-color: transparent transparent transparent #8bc34a;
+    border-color: transparent transparent transparent #689f38;
     border-left-style: solid;
     position: absolute;
     top: 50%;
@@ -2110,7 +2110,7 @@ select {
   width: 0;
   height: 0;
   border: inset 6px;
-  border-color: transparent #8bc34a transparent transparent;
+  border-color: transparent #689f38 transparent transparent;
   border-right-style: solid;
   float: left;
   margin-right: 0.75rem;
@@ -2157,7 +2157,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: #8bc34a transparent transparent;
+    border-color: #689f38 transparent transparent;
     border-top-style: solid;
     position: absolute;
     top: 12px;
@@ -2168,7 +2168,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: transparent #8bc34a transparent transparent;
+    border-color: transparent #689f38 transparent transparent;
     border-right-style: solid;
     float: left;
     margin-left: 0;
@@ -2179,7 +2179,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: transparent transparent transparent #8bc34a;
+    border-color: transparent transparent transparent #689f38;
     border-left-style: solid; }
   .dropdown.menu .is-dropdown-submenu-parent.is-left-arrow.opens-inner .submenu {
     right: 0;
@@ -2257,7 +2257,7 @@ select {
   white-space: nowrap;
   cursor: default;
   border-radius: 0;
-  background: #8bc34a;
+  background: #689f38;
   color: #fefefe; }
   .label.secondary {
     background: #777;
@@ -2582,7 +2582,7 @@ body {
       background: #e6e6e6; }
   .pagination .current {
     padding: 0.1875rem 0.625rem;
-    background: #8bc34a;
+    background: #689f38;
     color: #fefefe;
     cursor: default; }
   .pagination .disabled {
@@ -2614,7 +2614,7 @@ body {
   margin-bottom: 1rem;
   border-radius: 0; }
   .progress.primary .progress-meter {
-    background-color: #8bc34a; }
+    background-color: #689f38; }
   .progress.secondary .progress-meter {
     background-color: #777; }
   .progress.success .progress-meter {
@@ -2629,7 +2629,7 @@ body {
   display: block;
   width: 0%;
   height: 100%;
-  background-color: #8bc34a;
+  background-color: #689f38;
   border-radius: 0; }
   .progress-meter .progress-meter-text {
     position: absolute;
@@ -2682,7 +2682,7 @@ body {
   display: inline-block;
   width: 1.4rem;
   height: 1.4rem;
-  background-color: #8bc34a;
+  background-color: #689f38;
   transition: all 0.2s ease-in-out;
   -ms-touch-action: manipulation;
       touch-action: manipulation;
@@ -2855,7 +2855,7 @@ body.is-reveal-open {
             transform: translate3d(0, 0, 0);
     border-radius: 0; }
   input:checked ~ .switch-paddle {
-    background: #8bc34a; }
+    background: #689f38; }
     input:checked ~ .switch-paddle::after {
       left: 2.25rem; }
   [data-whatinput='mouse'] input:focus ~ .switch-paddle {
@@ -2988,7 +2988,7 @@ table.hover tr:nth-of-type(even):hover {
     float: none;
     display: block; }
   .tabs.primary {
-    background: #8bc34a; }
+    background: #689f38; }
     .tabs.primary > li > a {
       color: #fefefe; }
       .tabs.primary > li > a:hover, .tabs.primary > li > a:focus {
@@ -3001,7 +3001,7 @@ table.hover tr:nth-of-type(even):hover {
     padding: 1.25rem 1.5rem;
     line-height: 1;
     font-size: 12px;
-    color: #8bc34a; }
+    color: #689f38; }
     .tabs-title > a:hover {
       background: #fefefe; }
     .tabs-title > a:focus, .tabs-title > a[aria-selected='true'] {
@@ -3162,7 +3162,7 @@ table.hover tr:nth-of-type(even):hover {
   .top-bar ul {
     background-color: #e6e6e6; }
   .top-bar a {
-    color: #8bc34a; }
+    color: #689f38; }
   .top-bar input {
     width: 200px;
     margin-right: 1rem; }
